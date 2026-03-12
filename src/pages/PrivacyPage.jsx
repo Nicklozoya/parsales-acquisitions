@@ -43,7 +43,7 @@ function PrivacyPage() {
         <h2>Contact Us</h2>
         <p>
           For questions about this Privacy Policy, contact us at{' '}
-          <a href="mailto:offers@parsalesacquisitions.com">offers@parsalesacquisitions.com</a> or
+          <a href="mailto:nickl@parsaleacquisitions.com">nickl@parsaleacquisitions.com</a> or
           call <a href="tel:+14045785205">(404) 578-5205</a>.
         </p>
 
