@@ -2,10 +2,10 @@ function AboutPage() {
   return (
     <section className="section">
       <div className="content-card">
-        <p className="eyebrow">About ParSales Acquisitions</p>
+        <p className="eyebrow">About ParSales Acquisitions LLC</p>
         <h1 className="page-title">A trusted partner for land sellers</h1>
         <p>
-          ParSales Acquisitions is a land acquisitions business focused on helping owners
+          ParSales Acquisitions LLC is a land acquisitions business focused on helping owners
           sell quickly with transparent, direct-to-buyer offers. We prioritize clear
           communication, realistic pricing, and simple closings.
         </p>

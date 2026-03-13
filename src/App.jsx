@@ -63,10 +63,20 @@ function App() {
       </main>
 
       <footer className="footer">
+        <div className="footer-legal">
+          <p className="footer-name">ParSales Acquisitions LLC</p>
+          <p>Atlanta, GA</p>
+          <p>
+            <a href="tel:+14045785205">(404) 578-5205</a>
+          </p>
+          <p>
+            <a href="mailto:nickl@parsaleacquisitions.com">nickl@parsaleacquisitions.com</a>
+          </p>
+        </div>
         <p>
           <NavLink to="/privacy">Privacy Policy</NavLink> · <NavLink to="/terms">Terms & Conditions</NavLink>
         </p>
-        <p>© {new Date().getFullYear()} ParSales Acquisitions. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} ParSales Acquisitions LLC. All rights reserved.</p>
       </footer>
     </div>
   )
