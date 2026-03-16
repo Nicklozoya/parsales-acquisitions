@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/parsales-acquisitions">
+    <BrowserRouter basename={window.location.pathname.startsWith('/parsales-acquisitions') ? '/parsales-acquisitions' : '/'}>
       <App />
     </BrowserRouter>
   </StrictMode>,
