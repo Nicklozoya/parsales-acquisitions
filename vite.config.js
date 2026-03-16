@@ -1,12 +1,9 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [
-    react({
-      jsxRuntime: 'classic'  // ← This is the key change
-    })
-  ],
-  base: '/',  // Good as-is for custom domain
+  plugins: [react()],
+  // Root path is correct for the custom domain (parsaleacquisitions.com)
+  // and works with the GitHub Pages subpath when combined with the Router basename logic.
+  base: '/',
 })
